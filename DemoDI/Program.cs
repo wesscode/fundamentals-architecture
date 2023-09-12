@@ -22,7 +22,7 @@ builder.Services.AddScoped<IClienteServices, ClienteServices>();
 #endregion
 
 #region Generics
-
+//ao passar sem definição de classe, estamos sinalizando que a classe será resolvida na execução.
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 #endregion
@@ -32,6 +32,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddTransient<ServiceA>();
 builder.Services.AddTransient<ServiceB>();
 builder.Services.AddTransient<ServiceC>();
+//Exemplo de variação de service locator. Encontrar um serviço baseado em uma chave.
 builder.Services.AddTransient<Func<string, IService>>(serviceProvider => key =>
 {
     switch (key)

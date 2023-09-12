@@ -9,6 +9,10 @@ namespace DemoDI.Controllers
     {
         private readonly IServiceProvider _serviceProvider;
 
+        /*
+         * Service locator injetado no construtor.
+         Esse padrão deve ser evitado pois é conhecido como uma má pratica por influenciar em uma mal testabilidade etc
+        */
         public ServiceLocatorController(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
