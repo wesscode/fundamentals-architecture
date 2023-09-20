@@ -3,6 +3,9 @@
 namespace DesignPatterns
 {
     // Adaptee class
+    /*
+     * Classe que será utilizada para substituir a classe Target.
+     */
     public class LogNetMasterService : ILogNetMaster
     {
         public void LogInfo(string message)

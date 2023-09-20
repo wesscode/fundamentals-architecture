@@ -3,6 +3,9 @@
 namespace DesignPatterns
 {
     // Target class
+    /*
+     * Classe que quero substituir para aplicar o padrão.
+     */
     public class Logger : ILogger
     {
         public void Log(string message)
