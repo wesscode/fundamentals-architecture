@@ -1,5 +1,10 @@
 ﻿namespace DesignPatterns
 {
+
+    /*
+        Classe facade onde isola toda a integração com o meio de pagamento, 
+        E se eventualmente mudar a forma de pagamento, todo o código de manutenção está centralizado nessa classe.
+     */
     public class PagamentoCartaoCreditoFacade : IPagamentoCartaoCreditoFacade
     {
         private readonly IPayPalGateway _payPalGateway;

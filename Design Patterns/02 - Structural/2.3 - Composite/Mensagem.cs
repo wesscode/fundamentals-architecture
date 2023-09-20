@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace DesignPatterns
 {
+    /*Padrão composite utilizado para gerar niveis de listas hierárquicas*/
     public class Mensagem : IMessage, IEnumerable<IMessage>
     {
         private readonly List<IMessage> _lista = new List<IMessage>();

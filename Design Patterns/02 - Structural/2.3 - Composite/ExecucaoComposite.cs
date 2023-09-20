@@ -2,6 +2,7 @@
 {
     public class ExecucaoComposite
     {
+        /*Execução do pattern composite, onde gera o objeto e lista de objeto vinculados do mesmo tipo.*/
         public static void Executar()
         {
             var validacaoCadastro = new Mensagem("O cadastro não foi realizado!");
