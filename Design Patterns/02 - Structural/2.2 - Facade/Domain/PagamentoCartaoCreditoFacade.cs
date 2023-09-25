@@ -7,8 +7,8 @@
      */
     public class PagamentoCartaoCreditoFacade : IPagamentoCartaoCreditoFacade
     {
-        private readonly IPayPalGateway _payPalGateway;
-        private readonly IConfigurationManager _configManager;
+        private readonly IPayPalGateway _payPalGateway; //metodos de pagamento da integração.0
+        private readonly IConfigurationManager _configManager; //arquivo de property
 
         public PagamentoCartaoCreditoFacade(IPayPalGateway payPalGateway, IConfigurationManager configManager)
         {

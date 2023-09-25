@@ -1,5 +1,9 @@
 ﻿namespace DesignPatterns
 {
+    /*
+     * Pattern Strategy centralização de código, definido por uma classe genérica que atende as especializações que deriva da mesma interface.
+        Objeto especializado definido no momento da instância dessa classe.
+     */
     public class PedidoService
     {
         private readonly IPagamento _pagamento;
