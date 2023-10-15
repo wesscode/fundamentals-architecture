@@ -68,3 +68,40 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
     * Observer
 - **Consultar padrões dotnet:**
     * <a href="www.dofactory.com/net/design-patterns" target="_blank">👀click-me</a>
+
+## Estilos arquiteturais
+*"Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação. Trata-se de cini irganizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre sí e quais aspectos tecnológicos irão atender. Os estilos podem coexistir, onde o mesmo projeto pode possuir mais de um estilo."*
+
+- **Arquitetura monolítica**
+    * Onde todo o sistema está acoplado a um só projeto, desde o cliente ao servidor.
+- **Arquitetura em camadas**
+    * Separação de camadas com suas respectivas responsabilidades
+- **Arquitetura rest**
+    * estilo cliente, servidor realizando requests.
+- **Arquitetura microservices**
+    * Granularização dos serviços em várias partes idependentes.
+- **Arquitetura SOA**
+    * SOA vs Microservices: O estilo é o mesmo porém o micro é quebrado em serviços menores.
+- **Arquitetura de plugins(wordpress)**
+- **Arquitetura de Client-Servidor**
+- **Arquitetura pipe e filters**
+
+## Padrões arquiteturais
+*Os padrões arquiteturais são semelhantes aos "Design Patterns", mas possuem um escopo diferente. São estratégias de alto nível que diz respeito a componentes de grande escala as propriedades globais de um sistema. Um projeto de arquitetura pode conter diversos estilos e cada estilo pode utilizar diversos padrões. Um ádrão pode ser um subconjunto de um estilo arquitetural visando um escopo especifico.*
+
+- **Padrão MVC**
+- **padrão CQRS**
+- **Arquiteura 3 camadas**
+    * Onde a mesma é um estilo e um padrão
+    * **Estilo: Ao dividir as camadas.**
+    * **Padrão: Porque cada camada possuí uma responsabilidade específica.**
+- **Arquitetura cebola**
+    * Onde a mesma é um estilo e um padrão
+    * **Estilo: Separação em camadas.**
+    * **Padrão: Forma que ela se comporta e a forma que resolve o problema.** 
+- **Arquitetura Port&Adapters(Hexagonal)**
+    * Onde a mesma é um estilo e um padrão
+    * **Estilo: A forma que é prosposta de como a arquitetura vai trabalhar.**
+    * **Padrão: É o catalogo de estilos que ela irá acumular para que essa implementção seja possível.**
+
+## CQRS - Command Query Responsability Segregation
