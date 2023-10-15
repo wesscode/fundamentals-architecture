@@ -9,9 +9,10 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - Herança
 - Polimorfismo
 - Encapsulamento
-*Na orientação a objetos devemos sempre buscar o baixo acoplamento e a alta coesão entre os objetos.*
-- **Acoplamento:** Uma dependência direta entre um objeto e outro. Quando um objeto muda o outro muda por consequência.
-- **Coesão:** Objetos executando uma única responsabilidade livre de uma dependência direta com um outro objeto.
+
+*"Na orientação a objetos devemos sempre buscar o baixo acoplamento e a alta coesão entre os objetos."* <br>
+**Acoplamento:** Uma dependência direta entre um objeto e outro. Quando um objeto muda o outro muda por consequência.<br>
+**Coesão:** Objetos executando uma única responsabilidade livre de uma dependência direta com um outro objeto.
 
 ## Princípios S.O.L.I.D
 - **SRP:** Single responsability principle.
@@ -27,7 +28,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 
 *Os princípios SOLID devem ser aplicados para se obter os benefícios da orientação a objeto.*
 
-## Injeção de dependencia (DI)
+## Injeção de dependência (DI)
 
 - Entendendo container DI
     * ioc benchmack: https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
@@ -38,3 +39,34 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - Generics
 - Service Locator
 - Multiplas implementações
+
+## Clean code
+
+- Simples
+- Direto
+- Eficiente
+- Sem duplicidade
+- Elegante
+- Feito com cuidado
+- Fácil de ler
+
+## Design Patterns
+*São padrões de código para soluções de problemas conhecidos. O objetivo não é reinventar a roda e sim aplicar uma solução com um  bom design de código.*
+
+### O padrões estão separados por 3 familias são elas:
+- **Criacional:** 
+    * Abstract Factory
+    * Factory Method
+    * Singleton
+
+- **Estrutural:** 
+    * Adapter
+    * Facade
+    * Composite
+
+- **Comportamental:** 
+    * Command
+    * Strategy
+    * Observer
+
+*Consultar padrões dotnet: <a rel="www.dofactory.com/net/design-patterns" type="_blank">implementacao-padroes</a>
