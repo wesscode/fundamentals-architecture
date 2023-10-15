@@ -31,7 +31,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 ## Injeção de dependência (DI)
 
 - Entendendo container DI
-    * ioc benchmack: https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
+    * ioc benchmack: <a href="https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison" targer="_blank">👀benchmarks-ioc-dotnet</a>
 - Ciclo de vida:
     * Scoped: Criado apenas uma vez por cliente-request.
     * Transiente: A instância  da classe será criada toda vez que for injetada em alguma classe.
@@ -58,15 +58,13 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
     * Abstract Factory
     * Factory Method
     * Singleton
-
 - **Estrutural:** 
     * Adapter
     * Facade
     * Composite
-
 - **Comportamental:** 
     * Command
     * Strategy
     * Observer
-
-*Consultar padrões dotnet: <a rel="www.dofactory.com/net/design-patterns" type="_blank">implementacao-padroes</a>
+- **Consultar padrões dotnet:**
+    * <a href="www.dofactory.com/net/design-patterns" target="_blank">👀click-me</a>
