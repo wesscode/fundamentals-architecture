@@ -87,9 +87,10 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - **Arquitetura pipe e filters**
 
 ## Padrões arquiteturais
-*Os padrões arquiteturais são semelhantes aos "Design Patterns", mas possuem um escopo diferente. São estratégias de alto nível que diz respeito a componentes de grande escala as propriedades globais de um sistema. Um projeto de arquitetura pode conter diversos estilos e cada estilo pode utilizar diversos padrões. Um ádrão pode ser um subconjunto de um estilo arquitetural visando um escopo especifico.*
+*Os padrões arquiteturais são semelhantes aos "Design Patterns", mas possuem um escopo diferente. São estratégias de alto nível que diz respeito a componentes de grande escala as propriedades globais de um sistema. Um projeto de arquitetura pode conter diversos estilos e cada estilo pode utilizar diversos padrões. Um ádrão pode ser um subconjunto de um estilo arquitetural visando um escopo específico.*
 
 - **Padrão MVC**
+     * **Padrão: Define uma formação de responsabilidades e como elas conversam entre sí** 
 - **padrão CQRS**
 - **Arquiteura 3 camadas**
     * Onde a mesma é um estilo e um padrão
@@ -105,3 +106,52 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
     * **Padrão: É o catalogo de estilos que ela irá acumular para que essa implementção seja possível.**
 
 ## CQRS - Command Query Responsability Segregation
+*Um padrão arquitetural onde o foco principal é separar os meios de leitura e escrita de dados. Alterações de dados são realizados via **Commands** e leituras de dados que são realizados via **Queries***
+
+- **Commands**
+    * Representa uma intenção de mudança no estado de uma entidade. São expressivos e representam uma única intenção de negócio(Insert, update, delete).
+- **Queries**
+    * É a forma de obter dados de um banco ou origem de dados para atender as necessidades da aplicação.
+
+*"Podemos considerar que toda aplicação que salva em uma base de dados e busque em outra é um padrão CQRS."*
+
+## Event Sourcing
+
+## Domain-Driven Design(DDD)
+*É um guia de como entender um negócio, organiza-lo em um conjunto de princípios, criar uma modelagem com base no negócio e implementar utilizando diversas boas práticas. Razoavelmente fácil de entender, porém difícil de aplicar.*
+
+- **Processo de "implementação" do DDD**
+    * Entender o negócio
+    * Extrair a linguagem ubíqua
+    * Modelagem estrátegica
+    * Definir a arquitetura
+    * Modelagem tática
+
+## Arquitetura Evolutivas
+*Ser cuidadoso, evitar implementações desnecessárias, se possível adie.*
+*"Um bom arquiteto permite que decisões importantes sejam adiadas e um bom arquiteto maximiza o número de decisões tomadas."*
+*"Uma arquitetura evolutiva suporta mudanças contínuas e incrementais como um primeiro princípio por meio de vários aspectos."*
+
+- Sempre considere a complexidade
+    * **Acidental:** A complexidade acidental é aquela que surge durante o processo de desenvolvimento, ou seja, ela é **causada** pela abordagem escolhida para resolver o problema.
+    * **Essencial:** Já a essencial é basicamente a complexidade que nosso "software" se propõe resolver. Sim! Infelizmente existem problemas complexos, e é neles que temos que focar.
+
+## Lei de conway's Law
+*"Qualquer empresa que projeta um sistema, inevitavelmente produz um projeto cuja estrutura é uma cópia da estrutura de comunicação da organização."* **Melvin Conway**
+
+## Agilidade e o manifesto ágil
+<a href="https://agilemanifesto.org" target="_blank">manifesto</a>
+
+## DevOps
+*O termo DevOps deriva da junção das palavras **"desenvolvimento"** e **"operação"**, sendo uma prática de engenharia de software que possui o intuito de unificar o desenvolvimento de software(Dev) e a operação de software(Ops). O mesmo pretende fornecer em ciclos de desenvolvimento menores, frequência de implatação aumentada, liberação mais seguras, em alinhamento próximo com os objetivos de negócio.*
+
+**Planejamento ➡️ build ➡️ CI/CD ➡️ Deploy ➡️ Operate ➡️ Continuous feedbacks ♾️**
+
+## Princípio DRY(Dont Repeat Yourself)
+*Cada parte do conhecimento deve ter uma representação única, não ambígua e e definitiva dentro da aplicação.*
+
+## Princípio KISS (Keep It Simple, Stupid)
+*O kiss valorizaa simplicidade do projeto e defende que toda a complexidade desnecessária seja descartada.*
+
+## Princípio YAGNI (You Ain't Gonna Need It)
+*Uma orientação que sugere não adicionar funcionalidades ao código fonte de uma aplicação até que estas sejam realmente necessárias.*
