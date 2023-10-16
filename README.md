@@ -116,11 +116,12 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 *"Podemos considerar que toda aplicação que salva em uma base de dados e busque em outra é um padrão CQRS."*
 
 ## Event Sourcing
+*Uma forma de salvar todos os estados anteriores de uma entidade. Podendo assim colhendo comportamentos dos usuários, até mesmo dar replay e retornar a entidade ao seu estado inicial.*
 
 ## Domain-Driven Design(DDD)
 *É um guia de como entender um negócio, organiza-lo em um conjunto de princípios, criar uma modelagem com base no negócio e implementar utilizando diversas boas práticas. Razoavelmente fácil de entender, porém difícil de aplicar.*
 
-- **Processo de "implementação" do DDD**
+- **Processo de "implementação" do DDD:**
     * Entender o negócio
     * Extrair a linguagem ubíqua
     * Modelagem estrátegica
