@@ -53,7 +53,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 ## Design Patterns
 *São padrões de código para soluções de problemas conhecidos. O objetivo não é reinventar a roda e sim aplicar uma solução com um  bom design de código.*
 
-### O padrões estão separados por 3 familias são elas:
+### O padrões estão separados por 3 familias, são elas:
 - **Criacional:** 
     * Abstract Factory
     * Factory Method
@@ -70,16 +70,16 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
     * <a href="www.dofactory.com/net/design-patterns" target="_blank">👀click-me</a>
 
 ## Estilos arquiteturais
-*"Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação. Trata-se de cini irganizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre sí e quais aspectos tecnológicos irão atender. Os estilos podem coexistir, onde o mesmo projeto pode possuir mais de um estilo."*
+*"Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação. Trata-se de como organizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre sí e quais aspectos tecnológicos irão atender. Os estilos podem coexistir, onde o mesmo projeto pode possuir mais de um estilo."*
 
 - **Arquitetura monolítica**
     * Onde todo o sistema está acoplado a um só projeto, desde o cliente ao servidor.
 - **Arquitetura em camadas**
     * Separação de camadas com suas respectivas responsabilidades
 - **Arquitetura rest**
-    * estilo cliente, servidor realizando requests.
+    * Estilo cliente, servidor realizando requests.
 - **Arquitetura microservices**
-    * Granularização dos serviços em várias partes idependentes.
+    * Granularização dos serviços em várias partes independentes.
 - **Arquitetura SOA**
     * SOA vs Microservices: O estilo é o mesmo porém o micro é quebrado em serviços menores.
 - **Arquitetura de plugins(wordpress)**
@@ -87,7 +87,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - **Arquitetura pipe e filters**
 
 ## Padrões arquiteturais
-*Os padrões arquiteturais são semelhantes aos "Design Patterns", mas possuem um escopo diferente. São estratégias de alto nível que diz respeito a componentes de grande escala as propriedades globais de um sistema. Um projeto de arquitetura pode conter diversos estilos e cada estilo pode utilizar diversos padrões. Um ádrão pode ser um subconjunto de um estilo arquitetural visando um escopo específico.*
+*Os padrões arquiteturais são semelhantes aos "Design Patterns", mas possuem um escopo diferente. São estratégias de alto nível que diz respeito a componentes de grande escala as propriedades globais de um sistema. Um projeto de arquitetura pode conter diversos estilos e cada estilo pode utilizar diversos padrões. Um padrão pode ser um subconjunto de um estilo arquitetural visando um escopo específico.*
 
 - **Padrão MVC**
      * **Padrão: Define uma formação de responsabilidades e como elas conversam entre sí** 
