@@ -54,15 +54,15 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 *São padrões de código para soluções de problemas conhecidos. O objetivo não é reinventar a roda e sim aplicar uma solução com um  bom design de código.*
 
 ### O padrões estão separados por 3 familias, são elas:
-- **Criacional:** 
+- **Criacional:** _**Fornecem meios de criação de obj e de como será instanciado.**_
     * Abstract Factory
     * Factory Method
     * Singleton
-- **Estrutural:** 
+- **Estrutural:** _**Tratam da composição de obj por herança e interfaces para diferentes funcionalidades.**_
     * Adapter
     * Facade
     * Composite
-- **Comportamental:** 
+- **Comportamental:** _**Tratam das interações e comunicação entre os objetos além da divisão de responsabilidade.**_
     * Command
     * Strategy
     * Observer
