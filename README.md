@@ -8,11 +8,19 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - Abstração
 - Herança
 - Polimorfismo
-- Encapsulamento
+- Encapsulamento: Esconder métodos privados da classe para expor outro que faça uso dele. Chamar métodos sem saber como ele funciona internamente.
 
 *"Na orientação a objetos devemos sempre buscar o baixo acoplamento e a alta coesão entre os objetos."* <br>
 **Acoplamento:** Uma dependência direta entre um objeto e outro. Quando um objeto muda o outro muda por consequência.<br>
 **Coesão:** Objetos executando uma única responsabilidade livre de uma dependência direta com um outro objeto.
+
+## Modificadores de acesso
+ - Public: 
+ - Protected: Apenas a classe que está herdando aquela classe pode acessar aquele método.
+ - Internal: Acesso limitado ao assemblie.
+ - Private: Acesso limitado para quem contém aquele tipo.
+ - Private protected: *para métodos*
+ - Protected internal: Acesso limitados ao assemblie OU classes que estão derivando daquela classe. *para métodos*
 
 ## Princípios S.O.L.I.D
 - **SRP:** Single responsability principle.
