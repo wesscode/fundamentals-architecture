@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-//[assembly: InternalsVisibleTo("ProjetoB")]
+//[assembly: InternalsVisibleTo("ProjetoB")] //extendo o intero para outro "projeto" assemblie.
 namespace ProjetoA
 {
     #region Classes

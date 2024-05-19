@@ -14,13 +14,15 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 **Acoplamento:** Uma dependência direta entre um objeto e outro. Quando um objeto muda o outro muda por consequência.<br>
 **Coesão:** Objetos executando uma única responsabilidade livre de uma dependência direta com um outro objeto.
 
-## Modificadores de acesso
- - Public: 
+## Modificadores de acesso 
+ - Public: Não possui acesso restrito.
  - Protected: Apenas a classe que está herdando aquela classe pode acessar aquele método.
- - Internal: Acesso limitado ao assemblie.
- - Private: Acesso limitado para quem contém aquele tipo.
- - Private protected: *para métodos*
- - Protected internal: Acesso limitados ao assemblie OU classes que estão derivando daquela classe. *para métodos*
+ - Internal: Acesso limitado ao assemblie para classes e métodos.
+ - Private: Acesso limitado ao assemblie em caso de CLASSE. Limitado a classe em caso de MÉTODO.
+ - Private protected: Acesso limitados ao mesmo assemblie E Acesso limitado a classes que estão derivando dela *somente para métodos*
+ - Protected internal: Acesso limitado a classes que estão derivando dela OU Acesso limitados ao mesmo assemblie. *somente para métodos*
+
+ - Sealed: Classe selada nunca pode ser herdada. Somente instânciada.
 
 ## Princípios S.O.L.I.D
 - **SRP:** Single responsability principle.
