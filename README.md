@@ -24,6 +24,20 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 
  - Sealed: Classe selada nunca pode ser herdada. Somente instânciada.
 
+## Classe Abstrata Vs Interface
+- Interface:
+    - Contrato simples, onde se você está querendo usar essa interface você precisa implementar todos os métodos dela.
+    - Obriga a quem herdar realizar a implementação dos seus métodos expostos.
+
+- Classe abstrata:
+    - Além de obrigar a implementar os métodos abstratos a classe abstrata também possui comportamentos que podem ser derivados.
+
+## Interface Vs Implementação
+- **Interface:** Diminui o acoplamento devida a baixa dependência. Onde a classe passa a depender da abstração e não mais da implementação.
+
+- **Implementação:** Utilizar classes concretas no meio de um código que faz outras coisas. Onde gera um relacionalmento direto da classe que está implementando para a classe que está sendo implementa, esse é um caso de alto acoplamento.
+
+
 ## Princípios S.O.L.I.D
 - **SRP:** Single responsability principle.
     * Uma classe deve ter apenas um/e um motivo para ser modificada.
