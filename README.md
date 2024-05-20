@@ -33,10 +33,17 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
     - Além de obrigar a implementar os métodos abstratos a classe abstrata também possui comportamentos que podem ser derivados.
 
 ## Interface Vs Implementação
-- **Interface:** Diminui o acoplamento devida a baixa dependência. Onde a classe passa a depender da abstração e não mais da implementação.
+- **Interface:** Diminui o acoplamento devida a baixa dependência e aumenta a coesão. Onde a classe passa a depender da abstração e não mais da implementação.
 
 - **Implementação:** Utilizar classes concretas no meio de um código que faz outras coisas. Onde gera um relacionalmento direto da classe que está implementando para a classe que está sendo implementa, esse é um caso de alto acoplamento.
 
+*"Sempre prefira depender de abstrações(interface) invés de implementações. A classe que precisa instanciar suas dependências, ela mesmo se resolver, não passar a responsabilidade para quem ta querendo usa-la."* 
+
+## Herança Vs Composição
+*É interessante realizar uma avaliação se a classe abtraída É A classe especializada ou seja, se a classe especializada utiliza todos os comportamentos da sua abstração, somente ai deve ser feito uma Herança no mais opte por uma composição.*
+
+- **Herança:** Alto acoplamento e herda expõe todos os comportamentos da classe abstraída.
+- **Composição:** Só utiliza o necessário na classe que está sendo composta, baixo acoplamento.
 
 ## Princípios S.O.L.I.D
 - **SRP:** Single responsability principle.
