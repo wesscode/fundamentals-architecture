@@ -86,7 +86,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 
 ### O padrões estão separados por 3 familias, são elas:
 - **Criacional:** _Fornecem meios de criação de obj e de como será instanciado._
-    * Abstract Factory
+    * Abstract Factory: Fábrica de fábrica que delega a criação do produto a uma fabrica concreta.
     * Factory Method
     * Singleton
 - **Estrutural:** _Tratam da composição de obj por herança e interfaces para diferentes funcionalidades._
