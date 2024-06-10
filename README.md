@@ -72,14 +72,63 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 - Multiplas implementações
 
 ## Clean code
+- Linhas de código
+- Números de métodos
+- Número de classes
+- Linha de código por método
+- Complexidade ciclomática: ifs aninhado
+- Número de estruturas de decisão
+- Escolha os nomes que revelem intenção
+- Por que existe
+- O que faz
+- Como é usado
+- Use nomes fáceis de se encontrar
+- Use nomes pronunciáveis
+- Evite siglas ou acrônimos
+- Não economize palavras
+- Revele a intenção do código
+- Evite palavras que podem ser variáveis ou palavras reservadas em outras plataformas
+- O tipo não precisa estar no nome
+- Evite trocadilhos, não misture idioma, não mescle nomes.
 
-- Simples
-- Direto
-- Eficiente
-- Sem duplicidade
-- Elegante
-- Feito com cuidado
-- Fácil de ler
+
+## Boas práticas
+- Nome de classe devem ser SUBSTANTIVOS
+- Nome de métodos devem conter VERBOS de
+preferência no infinitivo.
+- Não seja genérico
+- Métodos <= 20 linhas
+- Linha <= 100 caracteres
+- Classe <= 500 linhas
+- Extraia trechos em métodos privados
+- Métodos devem fazer apenas uma coisa, fazê-la certa e somente fazê-la.
+- Evite muitos parâmetros
+- Não deixe o método mentir dizendo que faz uma coisa e faz outras "escondidas"
+- Se o método tiver mais de uma responsabilidade extraia em dois ou mais.
+- Leia seu método de cima para baixo como uma narrativa, ele deve fazer sentido.
+- Aplique uma boa indentação.
+
+## Comentários
+- Comentários não vão ajudar um código ruim ser melhor interpretado.
+- Um código que requer comentário, precisa ser reescrito.
+- Não deixe trechos de código comentado
+
+* Quando comentar ?
+- Alertar consequências que pode vir a causar
+- Licença, direitos autorais, etc.
+- Necessidade de explicar uma regra de negócio interna.
+- Decisões de design de código
+- Gerar documentação do código
+
+## Tratamento de erros
+- Tratar e prever possíveis exceções é de responsabilidade do desenvolvedor.
+- Retorne exceptions e não código de erro.
+- Informe o máximo que puder em sua exception.(não para o cliente)
+- Se necessário crie exceptions personalizadas para um problema específico.
+- Não retorne NULL
+
+* Regra dos escoteiros:
+"Deixe a área de acampamento mais limpa de como você a encontrou".
 
 ## Design Patterns
 *São padrões de código para soluções de problemas conhecidos. O objetivo não é reinventar a roda e sim aplicar uma solução com um  bom design de código.*
