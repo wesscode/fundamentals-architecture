@@ -194,6 +194,7 @@ preferência no infinitivo.
     * É a forma de obter dados de um banco ou origem de dados para atender as necessidades da aplicação.
 
 *"Podemos considerar que toda aplicação que salva em uma base de dados e busque em outra é um padrão CQRS."*
+* <a href="https://www.eduardopires.net.br/category/cqrs/" target="_blank">👀click-me</a>
 
 ## Event Sourcing
 *Uma forma de salvar todos os estados anteriores de uma entidade. Podendo assim colhendo comportamentos dos usuários, até mesmo dar replay e retornar a entidade ao seu estado inicial.*
