@@ -62,7 +62,7 @@ projeto para fins de estudo sobre o ecossitema de arquitetura de software.
 ## Injeção de dependência (DI)
 
 - Entendendo container DI
-    * ioc benchmack: <a href="https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison" targer="_blank">👀benchmarks-ioc-dotnet</a>
+    * ioc benchmack: <a href="https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison" target="_blank">👀benchmarks-ioc-dotnet</a>
 - Ciclo de vida:
     * Scoped: Criado apenas uma vez por cliente-request.
     * Transiente: A instância  da classe será criada toda vez que for injetada em alguma classe.
